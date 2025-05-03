@@ -49,26 +49,29 @@ def calc():
     p_optimal = round(p_optimal_raw, -2)
     print(f"Optimal criteria: {p_optimal} Ohm/□")
 
-    print("-> Film resistors form coefficients:")
+    print("\n-> Film resistors form coefficients:")
     ki = [round(x / p_optimal, 3) for x in ri]
     for i, k in enumerate(ki, start=1):
         print(f"Kf_{i} = {k}")
 
-    print("-> Width bi >= max(bwi; b_precise):")
+    print("\n-> Width bi >= max(bwi; b_precise):")
     bi = [round(math.sqrt((p_optimal * w) / (r * w0)) * 10, 3) for r, w in zip(ri, wi)]
     b_res = [math.ceil(max(b, d) * 10) / 10 for b, d in zip(bi, di)]
     for i, (b, d, br) in enumerate(zip(bi, di, b_res), start=1):
         print(f"b_{i} = {br} mm >= max[bw_{i} = {b} mm; b_precise = {d} mm]")
 
-    print(f"?? All kf_i < 10: {all(x < 10 for x in ki)}")
+    print(f"\n?? All kf_i < 10: {all(x < 10 for x in ki)}")
     print("-> Calculate Length li:")
 
     li = [round(k * b, 1) for k, b in zip(ki, b_res)]
     for i, l in enumerate(li, start=1):
         print(f"l_{i} = {l} mm")
 
-    print("Calculate calculation error:")
-    print("-> Skip: not implemented, will do later")
+    print("\nWith calculation error:")
+    rs = [round(l * p_optimal / b, 2) for l, b in zip(li, b_res)]
+    rd = [round(abs(r - rs) / r, 2) * 100 for r, rs in zip(ri, rs)]
+    for i, (l, rs, rd) in enumerate(zip(li, rs, rd), start=1):
+        print(f"l_{i} = {l} mm; R'_{i} = {rs}; ∆R' = {rd}%")
 
     print("\n#2. Calculate film capasitors\n")
 
