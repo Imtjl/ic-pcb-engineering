@@ -75,18 +75,23 @@
 \end{figure}
 
 \section{Этапы выполнения}
-\subsection{1. Подготовка схемы}
+\subsection{Пререквизиты}
+\textbf{Я сделал шаблон, взять его можно в} \underline{\textbf{\href{https://github.com/Imtjl/ic-pcb-engineering}{репозитории}}}
+
+\subsection{Подготовка схемы}
 \begin{enumerate}
+	\item Разместить 14-контактные микросхемы (например, DIP-14) на плате
+	\item Разместить разъём J2 (например, формата JST) на выделенное количество цепей + питание (VCC), земля (GND)
 	\item Создать схему соединений на основе списка цепей.
 	\item Отметить запрещённые контакты (например, 7 и 14) как подключённые к шинам питания.
 	\item Цепи, указанные в строке «На разъём», вывести на контакты J2.
 \end{enumerate}
 
-\subsection{2. Трассировка ПП}
+\subsection{Трассировка ПП}
 \begin{itemize}
 	\item Использовать двухстороннюю компоновку.
 	\item Минимизировать пересечения дорожек.
-	\item Учесть требования к ширине проводников и зазорам (уточнить у преподавателя).
+	\item Учесть требования к ширине проводников и зазорам (выберите фиксированную сетку, не мельчите и норм).
 \end{itemize}
 
 \subsection{3. Проверка (DRC)}
@@ -107,29 +112,38 @@
 	\item На разъём: цепи 37, 10, 7, 25, 3, 39, 22, 16, 35, 36
 \end{itemize}
 
+\newpage
 \subsection{Визуализация цепи \#1}
 \begin{verbatim}
 Цепь #1: U14/2 — U1/8 — U18/10 — U11/8 — U19/4
 \end{verbatim}
 
--- тут сделать полностью соединение чтоб было понятно --
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{docs/net1.png}
+	\caption{Пример трассировки цепи}
+\end{figure}
 
-% \begin{figure}[h!]
-% 	\centering
-% 	\includegraphics[width=0.5\textwidth]{docs/ex1.png}
-% 	\caption{Пример трассировки цепи}
-% \end{figure}
-
-\section{Советы}
-\begin{itemize}
-	\item Используйте автоматическую трассировку для сложных участков.
-	\item Группируйте цепи, идущие на разъём, в отдельной области платы.
-	\item Для вопросов: чат-группа курса \url{https://t.me/sapr_rkxx}
-\end{itemize}
+P.S. Совет: Создавайте так называемые \textbf{net} при проектировании \textbf{pcb} в KiCad. Таким образом вы сильно упростите себе жизнь (он будет подсказывать какие дорожки не заняты, подписывать каждое соединение своим номером, автоматически трассировать между ними путь и т.п.)
 
 \section{Пример выполненных дз}
 
 \subsection{Пример 1}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{docs/myhw3.png}
+	\caption{Моя домашка, выполненная в KiCad 8}
+\end{figure}
+
+\newpage
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{docs/myhw2.png}
+	\caption{Моя домашка, выполненная в KiCad 8}
+\end{figure}
+
+\newpage
+\subsection{Пример 2}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{docs/ex1.png}
@@ -137,7 +151,7 @@
 \end{figure}
 
 \newpage
-\subsection{Пример 2}
+\subsection{Пример 3}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[angle=180,origin=c,width=0.9\textwidth]{docs/ex2.png}
