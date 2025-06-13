@@ -47,8 +47,8 @@ def calc():
 
     print("\n-> Film resistors form coefficients:")
     ki = [round(x / p_optimal, 3) for x in ri]
-    for i, k in enumerate(ki, start=1):
-        print(f"Kf_{i} = {k}")
+    for i, (k,r) in enumerate(zip(ki,ri), start=1):
+        print(f"Kf_{i} = {k}; formula: {r}/{p_optimal}")
 
     print("\n-> Width bi >= max(bwi; b_precise):")
     bi = [round(math.sqrt((p_optimal * w) / (r * w0)) * 10, 3) for r, w in zip(ri, wi)]
