@@ -24,15 +24,25 @@
 
 |![image](https://github.com/user-attachments/assets/bd0e0048-4e1f-470c-8c10-d30460a7ddc8)|![image](https://github.com/user-attachments/assets/ce7d2f8b-ad31-4ed9-b2ca-140927a369c1)|
 |-|-|
+|![image_2025-06-19_20-46-00](https://github.com/user-attachments/assets/b1266e83-3ddd-4f86-a0df-21d33b8f0eb1)|![image_2025-06-19_20-46-14](https://github.com/user-attachments/assets/7d111cde-944d-46de-b024-548e55db98ae)|
 |![image](https://github.com/user-attachments/assets/7b5442d3-7568-430d-8312-e178f8ea991c)|![image](https://github.com/user-attachments/assets/dee757f1-d8a8-4c80-8c38-3118b87ccbdc)|
 
 ### 3D Renders
 
 **Improved design (with & without solder mask)**
 
+#### 1
+
 |![out](https://github.com/user-attachments/assets/239e25e4-10b0-4a7c-a52d-39b092b70355)|![out2](https://github.com/user-attachments/assets/239fc368-82a4-487e-92fd-fc8b328fbb62)|
 |-|-|
 |![out4](https://github.com/user-attachments/assets/d3274ed7-c070-4983-98ac-caf7008606cb)|![out3](https://github.com/user-attachments/assets/c77253e4-c9b6-4ee8-8376-6249e1b0c90e)|
+
+#### 2
+
+|![image_2025-06-19_20-36-26](https://github.com/user-attachments/assets/20ded0c4-46e7-49d6-aad7-a539cc4cb57b)|![image_2025-06-19_20-39-11](https://github.com/user-attachments/assets/13bc437b-4145-4e7d-99a1-4cf22a7943aa)|
+|-|-|
+|![image](https://github.com/user-attachments/assets/68b71870-402b-44de-a647-2e1d2bf2527e)|![image_2025-06-19_20-44-11](https://github.com/user-attachments/assets/6660e522-d523-4d70-ad9d-2b083ce1d63b)|
+
 
 **Initial design (with & without solder mask)**
 
