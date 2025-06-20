@@ -32,20 +32,24 @@
 
 **Improved design (with & without solder mask)**
 
-#### 1
+#### "Living in NY"
 
 |![image_2025-06-20_20-53-16](https://github.com/user-attachments/assets/dca9b503-594e-481e-894b-e21c60959a3e)|![image](https://github.com/user-attachments/assets/8b58b159-345b-44de-9aa5-d7fe3705f616)|
 |:-|:-|
 |![image_2025-06-20_20-53-46](https://github.com/user-attachments/assets/6bad36ac-6dd8-4a74-a383-b823400405ea)|![image_2025-06-20_20-52-30](https://github.com/user-attachments/assets/df83f97e-f50e-4618-aad7-8eda8a004390)|
 
-#### 2
+#### Compact v2
 
 |![image_2025-06-19_20-36-26](https://github.com/user-attachments/assets/20ded0c4-46e7-49d6-aad7-a539cc4cb57b)|![image_2025-06-19_20-39-11](https://github.com/user-attachments/assets/13bc437b-4145-4e7d-99a1-4cf22a7943aa)|
 |-|-|
 |![image](https://github.com/user-attachments/assets/68b71870-402b-44de-a647-2e1d2bf2527e)|![image_2025-06-19_20-44-11](https://github.com/user-attachments/assets/6660e522-d523-4d70-ad9d-2b083ce1d63b)|
 
+#### Circular madness
 
-**Initial design (with & without solder mask)**
+|![image_2025-06-20_20-44-35](https://github.com/user-attachments/assets/33b15961-99cf-4c3c-8852-831b0b0d52d4)|![image_2025-06-20_20-44-35 (2)](https://github.com/user-attachments/assets/d85163a4-6d4c-4c07-9a14-e7730ad05fe9)|![image_2025-06-20_20-26-07](https://github.com/user-attachments/assets/f542c890-db08-43b7-9e71-13e9ff36a486)|
+|-|-|-|
+
+#### First manual design
 
 |![image](https://github.com/user-attachments/assets/72e5ac79-9e74-413e-8eb0-88a1da263ae4)|![image](https://github.com/user-attachments/assets/001f5342-e3fd-4299-bd33-358d5ce6cdd7)|
 |-|-|
