@@ -25,7 +25,8 @@
 |![image](https://github.com/user-attachments/assets/bd0e0048-4e1f-470c-8c10-d30460a7ddc8)|![image](https://github.com/user-attachments/assets/ce7d2f8b-ad31-4ed9-b2ca-140927a369c1)|
 |-|-|
 |![image_2025-06-19_20-46-00](https://github.com/user-attachments/assets/b1266e83-3ddd-4f86-a0df-21d33b8f0eb1)|![image_2025-06-19_20-46-14](https://github.com/user-attachments/assets/7d111cde-944d-46de-b024-548e55db98ae)|
-|![image](https://github.com/user-attachments/assets/7b5442d3-7568-430d-8312-e178f8ea991c)|![image](https://github.com/user-attachments/assets/dee757f1-d8a8-4c80-8c38-3118b87ccbdc)|
+|![image](https://github.com/user-attachments/assets/d86fba3d-0e76-48ac-a763-503d472744f7)|![image](https://github.com/user-attachments/assets/7bf3547d-4fd5-43e2-bf8d-c0f9a2d3c3d3)|
+
 
 ### 3D Renders
 
@@ -33,9 +34,9 @@
 
 #### 1
 
-|![out](https://github.com/user-attachments/assets/239e25e4-10b0-4a7c-a52d-39b092b70355)|![out2](https://github.com/user-attachments/assets/239fc368-82a4-487e-92fd-fc8b328fbb62)|
-|-|-|
-|![out4](https://github.com/user-attachments/assets/d3274ed7-c070-4983-98ac-caf7008606cb)|![out3](https://github.com/user-attachments/assets/c77253e4-c9b6-4ee8-8376-6249e1b0c90e)|
+|![image_2025-06-20_20-53-16](https://github.com/user-attachments/assets/dca9b503-594e-481e-894b-e21c60959a3e)|![image](https://github.com/user-attachments/assets/8b58b159-345b-44de-9aa5-d7fe3705f616)|
+|:-|:-|
+|![image_2025-06-20_20-53-46](https://github.com/user-attachments/assets/6bad36ac-6dd8-4a74-a383-b823400405ea)|![image_2025-06-20_20-52-30](https://github.com/user-attachments/assets/df83f97e-f50e-4618-aad7-8eda8a004390)|
 
 #### 2
 
