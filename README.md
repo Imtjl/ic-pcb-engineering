@@ -59,9 +59,9 @@
 
 **Film resistors, capacitors, and transistors**
 
-|![image](https://github.com/user-attachments/assets/344e5e79-6431-42b0-971b-c7920d74ec19)|![image](https://github.com/user-attachments/assets/ad82935a-124d-46f1-8a21-494c1f03ea86)|
+|![image](https://github.com/user-attachments/assets/344e5e79-6431-42b0-971b-c7920d74ec19)|![image](https://github.com/user-attachments/assets/226af90e-8056-47dc-a8ff-931c6147f7e7)|
 |-|-|
-|![image](https://github.com/user-attachments/assets/0dce74dc-f854-42a5-aae1-298d67f95be7)|![image](https://github.com/user-attachments/assets/8e7eda50-732b-4199-9786-c9cffe0477be)|
+|![image](https://github.com/user-attachments/assets/0dce74dc-f854-42a5-aae1-298d67f95be7)|![image](https://github.com/user-attachments/assets/13aaf51c-f47a-4755-9965-b8fd5e2f4629)|
 
 ## Skills Demonstrated
 
