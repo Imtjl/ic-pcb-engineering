@@ -26,16 +26,25 @@
 |-|-|
 |![image_2025-06-19_20-46-00](https://github.com/user-attachments/assets/b1266e83-3ddd-4f86-a0df-21d33b8f0eb1)|![image_2025-06-19_20-46-14](https://github.com/user-attachments/assets/7d111cde-944d-46de-b024-548e55db98ae)|
 |![image](https://github.com/user-attachments/assets/d86fba3d-0e76-48ac-a763-503d472744f7)|![image](https://github.com/user-attachments/assets/7bf3547d-4fd5-43e2-bf8d-c0f9a2d3c3d3)|
+|![image](https://github.com/user-attachments/assets/d52bad80-79c9-4e8a-84a2-aac12876ab82)|<img width="624" height="720" alt="image" src="https://github.com/user-attachments/assets/5ed43202-3b2a-4dc9-8f97-3bfb297b45c1" />|
+
+
 
 
 ### 3D Renders
 
 **Improved design (with & without solder mask)**
 
+#### Racer howl superlight PRO MAX
+
+|<img width="370" height="457" alt="image" src="https://github.com/user-attachments/assets/e6bb1520-c1c5-40fc-84cc-effa02e3a545" />|<img width="361" height="457" alt="image" src="https://github.com/user-attachments/assets/f1ae6eb8-b611-43e7-a309-569a7ceb2f9f" />|
+|-|-|
+|<img width="368" height="451" alt="image" src="https://github.com/user-attachments/assets/7860532c-4dde-40d4-8a0b-2ddeb9bd696f" />|<img width="367" height="448" alt="image" src="https://github.com/user-attachments/assets/776cc0be-db80-4e73-bafb-2cb8383c18fe" />|
+
 #### "Living in NY"
 
 |![image_2025-06-20_20-53-16](https://github.com/user-attachments/assets/dca9b503-594e-481e-894b-e21c60959a3e)|![image](https://github.com/user-attachments/assets/8b58b159-345b-44de-9aa5-d7fe3705f616)|
-|:-|:-|
+|-|-|
 |![image_2025-06-20_20-53-46](https://github.com/user-attachments/assets/6bad36ac-6dd8-4a74-a383-b823400405ea)|![image_2025-06-20_20-52-30](https://github.com/user-attachments/assets/df83f97e-f50e-4618-aad7-8eda8a004390)|
 
 #### Compact v2
