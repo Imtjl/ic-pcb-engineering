@@ -120,24 +120,32 @@ const sn = (v) => Math.round(v / GRID) * GRID;
 /* ═══ APP ═══ */
 export default function App() {
   const [resistors, setR] = useState([
-    { name: "R1", R: 520, delta: 10, W: 0.01 },
-    { name: "R2", R: 800, delta: 10, W: 0.01 },
-    { name: "R3", R: 7000, delta: 10, W: 0.005 },
-    { name: "R4", R: 4300, delta: 10, W: 0.01 },
-    { name: "R5", R: 4300, delta: 20, W: 0.005 },
+    { name: "R1", R: 110, delta: 10, W: 0.01 },
+    { name: "R2", R: 600, delta: 10, W: 0.01 },
+    { name: "R3", R: 1100, delta: 10, W: 0.005 },
+    { name: "R4", R: 3200, delta: 10, W: 0.01 },
+    { name: "R5", R: 15000, delta: 20, W: 0.005 },
+    { name: "R6", R: 21000, delta: 20, W: 0.003 },
+    { name: "R7", R: 18000, delta: 20, W: 0.005 },
   ]);
   const [capacitors, setC] = useState([{ name: "C1", C: 6300 }]);
-  const [navesInput, setNI] = useState([{ name: "VT1" }, { name: "VT2" }]);
+  const [navesInput, setNI] = useState([
+    { name: "VT1" },
+    { name: "VT2" },
+    { name: "VT3" },
+    { name: "VT4" },
+    { name: "VDex1" },
+    { name: "VDex2" },
+    { name: "VDex3" },
+    { name: "VDex4" },
+    { name: "VDom1" },
+    { name: "VDom2" },
+  ]);
   const [result, setResult] = useState(null);
   const [subW, setSubW] = useState(14);
   const [subH, setSubH] = useState(12);
   const [comps, setComps] = useState([]);
-  const [pads, setPads] = useState([
-    { id: 1, name: "вход", side: "left", pos: 0.85, sz: 0.3, hasCenter: true },
-    { id: 2, name: "выход", side: "bottom", pos: 0.3, sz: 0.3, hasCenter: true },
-    { id: 3, name: "общий", side: "bottom", pos: 0.8, sz: 0.3, hasCenter: true },
-    { id: 4, name: "-6.3В", side: "right", pos: 0.35, sz: 0.3, hasCenter: true },
-  ]);
+  const [pads, setPads] = useState([]);
   const [traces, setTraces] = useState([]); // [{points:[{x,y}], width}]
   const [wires, setWires] = useState([]); // [{x1,y1,x2,y2}]
   const [tab, setTab] = useState("input");
@@ -380,7 +388,14 @@ export default function App() {
   const addPad = () =>
     setPads([
       ...pads,
-      { id: Date.now(), name: "", side: "left", pos: 0.5, sz: 0.3, hasCenter: true },
+      {
+        id: Date.now(),
+        name: "",
+        side: "left",
+        pos: 0.5,
+        sz: 0.3,
+        hasCenter: true,
+      },
     ]);
 
   // Build trace segments for rendering (no internal borders)
@@ -1220,20 +1235,21 @@ export default function App() {
                       {p.name && (
                         <text
                           x={
-                            ox + (x + s / 2) * SC
-                            +
+                            ox +
+                            (x + s / 2) * SC +
                             (p.side === "left"
-                            ? x - s*35
-                            : p.side === "right"
-                            ? x + s*15
-                            : 0)
+                              ? x - s * 35
+                              : p.side === "right"
+                                ? x + s * 15
+                                : 0)
                           }
                           y={
-                            oy + s*30 +
+                            oy +
+                            s * 30 +
                             (p.side === "top"
-                              ? y - s*1.2
+                              ? y - s * 1.2
                               : p.side === "bottom"
-                                ? y + s*0.5
+                                ? y + s * 0.5
                                 : y - s * 1.7) *
                               SC
                           }
