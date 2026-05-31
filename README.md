@@ -1,21 +1,44 @@
 # IC & PCB Engineering
 
-> [!NOTE]
-> ITMO University course: "Системы Автоматизированного Проектирования" (Computer-Aided Design Systems)
+> Schematic design, PCB layout, hybrid integrated circuits — coursework demonstrating end-to-end hardware design workflow.
 
-## Course Structure
+## Overview
 
-**Two main assignments:**
-- **hw1** - Hybrid Integrated Circuits (film resistors, capacitors, transistors)
-- **hw2** - 2-Layer PCB Design + **Self-Created Design Guide** (see `hw2/guide.pdf`)
+This repository showcases practical work in **integrated circuit and printed circuit board engineering**, covering the full hardware design pipeline: from circuit analysis and component selection to multi-layer PCB routing, design rule verification, and 3D presentation.
+
+The work is organized into two parts:
+
+- **Part 1 — Hybrid Integrated Circuits**: film-based resistors, capacitors, and transistor integration
+- **Part 2 — Multi-Layer PCB Design**: complete schematic-to-board workflow with custom-authored design documentation
+
+### Self-Authored Design Guide
 
 > [!IMPORTANT]
-> I created a comprehensive design guide (`hw2/guide.pdf`) since no official documentation was provided by the teacher.
-> This guide covers the complete PCB design workflow and hw2 assignment tutorial.
+> A comprehensive PCB design guide ([`hw2/guide.pdf`](hw2/guide.pdf)) authored from scratch, covering the complete schematic-to-PCB workflow. Created independently in absence of official course materials.
 
-## Showcase of Coursework
+This guide is reusable for any KiCad-based PCB design workflow and represents original technical documentation work beyond the course requirements.
 
-### Schematics
+---
+
+## Showcase
+
+### Schematic Design
+
+#### Custom advanced schematics
+
+##### Multi chip lab board
+
+|<img width="2185" height="1168" alt="image" src="https://github.com/user-attachments/assets/e7c18bcb-8c9a-4ca8-be11-efed26614536" />|
+|-|
+
+- source: [lab_pcb_v2.pdf](https://github.com/user-attachments/files/28438125/Earlink_lab_v1.2.pdf)
+
+##### qa dut lab board
+
+|<img width="564" height="833" alt="image" src="https://github.com/user-attachments/assets/e7884129-c9d3-4b79-a3a0-283d7999388e" />|
+|-|
+
+#### course schematics
 
 |![image](https://github.com/user-attachments/assets/64e84e90-13d8-43e0-95af-379d2208297f)|![image](https://github.com/user-attachments/assets/cb54876c-2bd0-4439-99af-85a028fe7c87)|
 |-|-|
@@ -27,9 +50,6 @@
 |![image_2025-06-19_20-46-00](https://github.com/user-attachments/assets/b1266e83-3ddd-4f86-a0df-21d33b8f0eb1)|![image_2025-06-19_20-46-14](https://github.com/user-attachments/assets/7d111cde-944d-46de-b024-548e55db98ae)|
 |![image](https://github.com/user-attachments/assets/d86fba3d-0e76-48ac-a763-503d472744f7)|![image](https://github.com/user-attachments/assets/7bf3547d-4fd5-43e2-bf8d-c0f9a2d3c3d3)|
 |![image](https://github.com/user-attachments/assets/d52bad80-79c9-4e8a-84a2-aac12876ab82)|<img width="624" height="720" alt="image" src="https://github.com/user-attachments/assets/5ed43202-3b2a-4dc9-8f97-3bfb297b45c1" />|
-
-
-
 
 ### 3D Renders
 
@@ -72,10 +92,20 @@
 |-|-|
 |![image](https://github.com/user-attachments/assets/0dce74dc-f854-42a5-aae1-298d67f95be7)|![image](https://github.com/user-attachments/assets/13aaf51c-f47a-4755-9965-b8fd5e2f4629)|
 
-## Skills Demonstrated
+## Engineering Skills
 
-- **Schematic Design** - Circuit analysis and component selection
-- **PCB Layout** - 2-layer board routing and optimization (+freerouting plugin, DRC, EMI via copper pour)
-- **Hybrid IC Design** - Film-based component integration
-- **3D Visualization** - Professional presentation and validation
-- **Technical Documentation** - Self-authored design guidelines
+| Skill | Detail |
+|---|---|
+| **Schematic Design** | Circuit analysis, component selection, topology optimization |
+| **PCB Layout** | Two-layer board routing with freerouting plugin, DRC verification, EMI mitigation via copper pour |
+| **Hybrid IC Design** | Film-based component integration (resistors, capacitors, transistors) |
+| **3D Visualization** | Photorealistic rendering for design validation and presentation |
+| **Technical Documentation** | Self-authored, reusable PCB design guideline (see `hw2/guide.pdf`) |
+
+## Tools
+
+KiCad · Freerouting · 3D Rendering Pipeline
+
+---
+
+<sub>Developed as part of the Computer-Aided Design Systems course at ITMO University, Faculty of Software Engineering and Computer Systems. Repository scope and documentation authored independently.</sub>
